@@ -25,6 +25,10 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(self.calculator.division(10, 2), 5)
         self.assertEqual(self.calculator.result, 5)
 
+    def test_square_method_calculator(self):
+        self.assertEqual(self.calculator.square(5), 25)
+        self.assertEqual(self.calculator.result, 25)
+
 
 if __name__ == '__main__':
     unittest.main()
