@@ -14,7 +14,7 @@ def multiplication(a, b):
 
 
 def division(a, b):
-    return a / b
+    return b / a
 
 
 def square(a):
@@ -44,17 +44,23 @@ class Calculator:
         return self.result
 
     def multiplication(self, a, b):
+        a = int(a)
+        b = int(b)
         self.result = multiplication(a, b)
         return self.result
 
     def division(self, a, b):
+        a = int(a)
+        b = int(b)
         self.result = division(a, b)
         return self.result
 
     def square(self, a):
+        a = int(a)
         self.result = square(a)
         return self.result
 
     def root(self, a):
+        a = int(a)
         self.result = root(a)
         return self.result
