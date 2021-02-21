@@ -16,14 +16,17 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(self.calculator.result, 0)
 
     def test_add_method_calculator(self):
-        test_data = CsvReader('/src/Unit Test Addition.csv').data
-        for row in test_data:
+        test_add = CsvReader('/src/Unit Test Addition.csv').data
+        for row in test_add:
             self.assertEqual(self.calculator.add(row['Value 1'], row['Value 2']), int(row['Result']))
             self.assertEqual(self.calculator.result, int(row['Result']))
 
     def test_subtract_method_calculator(self):
-        self.assertEqual(self.calculator.subtract(2, 2), 0)
-        self.assertEqual(self.calculator.result, 0)
+        test_sub = CsvReader('/src/Unit Test Subtraction.csv').data
+        pprint(test_sub)
+        for row in test_sub:
+            self.assertEqual(self.calculator.subtract(row['Value 1'], row['Value 2']), int(row['Result']))
+            self.assertEqual(self.calculator.result, int(row['Result']))
 
     def test_division_method_calculator(self):
         self.assertEqual(self.calculator.division(10, 2), 5)

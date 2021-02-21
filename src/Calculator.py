@@ -38,7 +38,9 @@ class Calculator:
         return self.result
 
     def subtract(self, a, b):
-        self.result = subtraction(a, b)
+        a = int(a)
+        b = int(b)
+        self.result = a - b
         return self.result
 
     def multiplication(self, a, b):
