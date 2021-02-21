@@ -1,6 +1,3 @@
-import math
-
-
 class Calculator:
     result = 0
 
