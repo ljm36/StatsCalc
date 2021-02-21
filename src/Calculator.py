@@ -2,10 +2,6 @@ import math
 
 
 
-def square(a):
-    return a * a
-
-
 def root(a):
     return math.sqrt(a)
 
