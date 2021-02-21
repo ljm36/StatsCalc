@@ -2,10 +2,6 @@ import math
 
 
 
-def division(a, b):
-    return b / a
-
-
 def square(a):
     return a * a
 
