@@ -38,12 +38,10 @@ class Calculator:
 
     def square(self, a):
         a = float(a)
-        b = float(b)
         self.result = square(a)
         return self.result
 
     def root(self, a):
         a = float(a)
-        b = float(b)
         self.result = root(a)
         return self.result
