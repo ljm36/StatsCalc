@@ -1,4 +1,4 @@
-import Calculator
+from src.calculator.Calculator import Calculator
 def square(a):
     return a * a
 Calculator.square = staticmethod(Calculator.square)
