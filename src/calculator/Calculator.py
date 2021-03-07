@@ -7,6 +7,7 @@ from src.calculator.operations.squareRoot import root
 
 
 class Calculator:
+
     result = 0
 
     def __init__(self):
@@ -45,3 +46,5 @@ class Calculator:
         a = float(a)
         self.result = root(a)
         return self.result
+
+

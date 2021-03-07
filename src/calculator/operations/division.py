@@ -1,4 +1,4 @@
-from src.calculator.Calculator import Calculator
+from src.calculator import Calculator
 def division(a, b):
     return b / a
 

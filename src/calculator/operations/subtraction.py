@@ -1,4 +1,4 @@
-import Calculator
+from src.calculator import Calculator
 def subtraction(a, b):
     return a - b
 Calculator.subtraction = staticmethod(Calculator.subtraction)
