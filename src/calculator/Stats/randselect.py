@@ -6,5 +6,6 @@ for i in range(3):
     print(random.randint(random.randint(), random.randint()))
 
 
-
+    list = num.getSample()
+    randListSeed = list[num]
 
