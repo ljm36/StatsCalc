@@ -11,7 +11,7 @@ def getSample():
 
 def exception(random_list):
 
-   if(len(random_list)==0):
+   if len(random_list)==0:
     try:
         a = random_list
         return a
