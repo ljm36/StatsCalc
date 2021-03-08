@@ -7,3 +7,4 @@ def getSample():
         n = random.uniform(random(),random())
         random_list.append(n)
     return random_list
+
