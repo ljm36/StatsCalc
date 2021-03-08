@@ -13,7 +13,10 @@ Kevin Marcjanik
     -Mean
     -Median
     -Without seed
+    -Select Random
     -Sample
+    -coveralls
+    -travis
 
 Tarik Amraoui
     -StatsCalc
