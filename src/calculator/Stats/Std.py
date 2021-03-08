@@ -1,5 +1,8 @@
 import statistics
+from src.calculator.Stats.sample import getSample
 
 def std(data):
-    sample = [data]
-    return statistics.std(sample)
+
+    sample = getSample(data)
+
+    return statistics.mode(sample)

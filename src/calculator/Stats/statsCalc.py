@@ -1,7 +1,7 @@
 from src.calculator.Calculator import Calculator
 from src.calculator.Stats.Mean import mean
 from src.calculator.Stats.Mode import mode
-
+from src.calculator.Stats.Std import std
 
 class Statistics(Calculator):
 
@@ -11,4 +11,8 @@ class Statistics(Calculator):
 
     def mode(self, data):
         self.result = mode(data)
+        return self.result
+
+    def std(self, data):
+        self.result = std(data)
         return self.result
