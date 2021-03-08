@@ -40,5 +40,20 @@ Stats Calculator
         6. Z-score -> Calls z-score method of z-score method
     3.Operations class(s)
         1. Mean
-            2. Methods
-                3. 
+            1. Methods
+                1. gets the average of numbers in list
+        2. Median
+            1. Methods
+                1. Finds the middle number in list
+        3. Mode
+            1. Methods
+                1. Finds number that appears most in list
+        4. Variance
+            1. Methods
+                1. Tells how far from the mean an item in the list is
+        5. Standard Deviation
+            1. Methods
+                1. Tells how spread out numbers are
+        6. Z-Score
+            1. Methods
+                1. Tells if value is above or below the mean
