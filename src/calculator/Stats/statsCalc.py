@@ -3,6 +3,8 @@ from src.calculator.Stats.Mean import mean
 from src.calculator.Stats.Median import median
 from src.calculator.Stats.Mode import mode
 from src.calculator.Stats.Std import std
+from src.calculator.Stats.Variance import variance
+from src.calculator.Stats.Zscore import zscore
 
 class Statistics(Calculator):
 
@@ -22,4 +24,12 @@ class Statistics(Calculator):
 
     def std(self, data):
         self.result = std(data)
+        return self.result
+
+    def variance(self, data):
+        self.result = variance(data)
+        return self.result
+
+    def zscore(self, data):
+        self.result = zscore(data)
         return self.result
