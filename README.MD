@@ -21,6 +21,9 @@ Tarik Amraoui
     -Z-score
     -Static Method
     -Random select seed
+    -Empty List Exception
+    -Division Exception
+    -Fixed Division Calculations
 
 Stats Calculator
     1. Properties
