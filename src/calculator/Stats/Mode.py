@@ -6,3 +6,4 @@ def mode(data):
     sample = getSample(data)
 
     return statistics.mode(sample)
+statistics.mode = staticmethod(statistics.mode)

@@ -1,3 +1,5 @@
+import statistics
+
 import numpy as np
 
 def zscore(data):
@@ -7,3 +9,5 @@ def zscore(data):
     std = np.std(dataset)
     zsc = mean/std
     return zsc
+
+statistics.zscore = staticmethod(statistics.zscore)
