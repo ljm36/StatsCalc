@@ -2,7 +2,7 @@ import numpy as np
 
 def zscore(data):
     dataset = data.getSample()
-    mean = np.mean(data)
-    std = np.std(data)
+    mean = np.mean(dataset)
+    std = np.std(dataset)
     zsc = mean/std
     return zsc
