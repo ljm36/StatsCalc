@@ -6,7 +6,7 @@ def getSample(data, sample_size):
     # return random_values
 
     randomlist = []
-    for i in range(int(random)):
+    for i in range(10):
         n = random.randint(random(),random())
         randomlist.append(n)
-
+    return randomlist
