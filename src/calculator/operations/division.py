@@ -8,6 +8,4 @@ def division(a, b):
     except ZeroDivisionError:
         print('Division by 0 error')
 
-    return b / a
-
 Calculator.division= staticmethod(Calculator.division)
