@@ -1,4 +1,4 @@
-
+https://coveralls.io/repos/github/ljm36/StatsCalc/badge.svg?branch=master(Coverage Status)!:https://coveralls.io/github/ljm36/StatsCalc?branch=master
 
 
 Luis J Mejia Garcia
