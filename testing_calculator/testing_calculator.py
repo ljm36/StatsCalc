@@ -42,9 +42,9 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(self.calculator.root(9), 3)
         self.assertEqual(self.calculator.result, 3)
 
-    #def test_mean_method_calculator(self):
-        #self.assertEqual(self.stats_calc.mean())
-        #self.assertEqual(self.stats_calc.result, 1)
+    def test_mean_method_calculator(self):
+        self.assertEqual(self.stats_calc.mean(), getSample())
+        self.assertEqual(self.stats_calc.result, getSample())
 
 
 
