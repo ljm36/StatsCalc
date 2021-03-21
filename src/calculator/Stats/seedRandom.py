@@ -1,4 +1,5 @@
 import random
 
-random.seed(5)
-print(random.random())
+def rand():
+    random.seed(5)
+    print(random.random())

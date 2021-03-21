@@ -10,7 +10,6 @@ class MyTestCase(unittest.TestCase):
         self.calculator = Calculator()
         self.stats_calc = Statistics()
 
-    sample = getSample()
 
     def test_instantiate_calculator(self):
         self.assertIsInstance(self.calculator, Calculator)
@@ -42,12 +41,29 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(self.calculator.root(9), 3)
         self.assertEqual(self.calculator.result, 3)
 
-    def test_mean_method_calculator(self):
-        self.assertEqual(self.stats_calc.mean(), getSample())
+    #def test_mean_method_calculator(self):
+        #self.assertEqual(self.stats_calc.mean(), getSample())
+        #self.assertEqual(self.stats_calc.result, getSample())
+
+    #def test_median_method_calculator(self):
+        #self.assertEqual(self.stats_calc.median(), getSample())
+        #self.assertEqual(self.stats_calc.result, getSample())
+
+    #def test_mode_method_calculator(self):
+        #self.assertEqual(self.stats_calc.mode(), getSample())
+        #self.assertEqual(self.stats_calc.result, getSample())
+
+    #def test_std_method_calculator(self):
+        #self.assertEqual(self.stats_calc.std(), getSample())
+        #self.assertEqual(self.stats_calc.result, getSample())
+
+    #def test_variance_method_calculator(self):
+        #self.assertEqual(self.stats_calc.variance(), getSample())
+        #self.assertEqual(self.stats_calc.result, getSample())
+
+    def test_zscore_method_calculator(self):
+        self.assertEqual(self.stats_calc.zscore(), getSample())
         self.assertEqual(self.stats_calc.result, getSample())
-
-
-
 
 
 if __name__ == '__main__':
