@@ -1,5 +1,4 @@
-<img src="https://coveralls.io/repos/github/ljm36/StatsCalc/badge.svg" alt="Coverage Status" />
-
+[![Coverage Status](https://coveralls.io/repos/github/ljm36/StatsCalc/badge.svg)](https://coveralls.io/github/ljm36/StatsCalc)
 
 Luis J Mejia Garcia
     -StatsCalc
