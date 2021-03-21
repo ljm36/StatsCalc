@@ -1,5 +1,3 @@
- ![check-code-coverage](https://img.shields.io/badge/Coverage-90-green)
-
 
 
 
