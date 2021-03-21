@@ -1,3 +1,1 @@
-import numpy as np
-
-numpy~=1.20.1
+numpy
