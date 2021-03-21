@@ -4,7 +4,7 @@ def getSample():
 
     random_list = []
     for i in range(int(random())):
-        n = random.randint(random(),random())
+        n = random.randint(random.randint(),random.randint())
         random_list.append(n)
 
     return random_list
