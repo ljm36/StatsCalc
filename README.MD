@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/ljm36/StatsCalc.svg?branch=master)](https://travis-ci.com/ljm36/StatsCalc)
 [![Coverage Status](https://coveralls.io/repos/github/ljm36/StatsCalc/badge.svg)](https://coveralls.io/github/ljm36/StatsCalc)
 
 Luis J Mejia Garcia
