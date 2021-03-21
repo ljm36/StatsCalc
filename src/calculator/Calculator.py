@@ -8,6 +8,7 @@ from src.calculator.operations.squareRoot import root
 
 class Calculator:
 
+
     result = 0
 
     def __init__(self):
