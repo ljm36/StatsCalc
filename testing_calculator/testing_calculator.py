@@ -1,10 +1,12 @@
 import unittest
 from src.calculator.Calculator import Calculator
+from src.calculator.statsCalc import Statistics
 
 class MyTestCase(unittest.TestCase):
 
     def setUp(self) -> None:
         self.calculator = Calculator()
+        self.stats_calc = Statistics()
 
     def test_instantiate_calculator(self):
         self.assertIsInstance(self.calculator, Calculator)
@@ -36,6 +38,19 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(self.calculator.root(9), 3)
         self.assertEqual(self.calculator.result, 3)
 
+    def test_mean_method_calculator(self):
+        self.assertEqual(self.stats_calc.mean(10), 5)
+        self.assertEqual(self.stats_calc.result, 5)
+
+    def test_median_method_calculator(self):
+
+    def test_mode_method_calculator(self):
+
+    def test_std_method_calculator(self):
+
+    def test_variance_calculator(self):
+
+    def test_zscpre_calculator(self):
 
 
 
