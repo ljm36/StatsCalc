@@ -4,4 +4,4 @@ ADD . .
 
 RUN pip install coverage
 
-CMD [ "python", "./testing_calculator/testing_calculator.py" ]
+CMD ["python3","-m","unittest","discover","tests"]
