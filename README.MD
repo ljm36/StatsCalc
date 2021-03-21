@@ -1,3 +1,4 @@
+<img src="https://coveralls.io/repos/github/ljm36/StatsCalc/badge.svg" alt="Coverage Status" />
 
 
 Luis J Mejia Garcia
