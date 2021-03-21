@@ -9,4 +9,4 @@ def variance(data):
     var = np.var(dataset)
     return var
 
-statistics.variance = staticmethod(statistics.variance)
+#statistics.variance = staticmethod(statistics.variance)

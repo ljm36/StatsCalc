@@ -4,7 +4,7 @@ def getSample():
 
     random_list = []
     for i in range(int(random())):
-        n = random.uniform(random(),random())
+        n = random.randint(random(),random())
         random_list.append(n)
 
     return random_list
@@ -15,5 +15,6 @@ def exception(random_list):
     try:
         a = random_list
         return a
-    except:
+
+    finally:
         return None

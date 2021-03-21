@@ -13,4 +13,4 @@ def zscore(data):
     zsc = division(std,mean)
     return zsc
 
-statistics.zscore = staticmethod(statistics.zscore)
+#statistics.zscore = staticmethod(statistics.zscore)

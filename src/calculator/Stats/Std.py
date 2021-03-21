@@ -7,4 +7,4 @@ def std(data):
 
     return statistics.mode(sample)
 
-statistics.std = staticmethod(statistics.std)
+#statistics.std = staticmethod(statistics.std)
